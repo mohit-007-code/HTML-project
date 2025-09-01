@@ -1,29 +1,92 @@
-h1{
-    color: blue;
-    
-}
-
 body{
-    background:gray;
+    background-image: url('image/tree.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.navbar {
+    background-color: transparent;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.navdiv{
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+
+.logo{
+    font-size: 45px;
+    font-weight: bold;
+    padding: 15px 45px;
+    color: orange;
+}
+
+li{
+    display: inline-flex;
+    margin-left: 60px;
+}
+
+li a{
+    text-decoration: none;
+    color:white;
+    margin-left: 50px;
+    font-size: 20px;
 }
 
 
-a{
-    text-decoration: none;
-    background: red ;
+.heading {
+    font-size: 60px;
+    margin-top: 100px;
+    padding: 10px 45px;
+    margin-bottom: 0px;
+}
+
+.heading .part-one{
+    display: block;
+    line-height: 50px;
+
+}
+
+.heading .part-two{
+    color: orange;
+}
+
+.part-three{
+    color: white;
+    display: block;
+    font-size:60px;
+    padding: 3px 45px;
+    line-height: 30px;
+}
+
+.pera-one{
+    padding: 10px 45px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
     
 }
 
-img{
-    height: 250px;
-    width: 250px;
-    border-radius: 10%;
+.button{
+    border: none;
+    color: white;
+    background: orange;
+    padding: 15px 55px;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 15px;
+    margin: 6px 45px;
+    cursor: pointer;
 }
 
-a:hover{
-    color:black;
+footer {
+  background-color: black;
+  padding: 20px;
+  margin-top: 250px;
+  color: white;
+  text-align: center;
 }
-.button:hover{
-    color: red;
-    background: gray;
+
+footer table {
+  width: 100%;
 }
