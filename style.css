@@ -1,0 +1,29 @@
+h1{
+    color: blue;
+    
+}
+
+body{
+    background:gray;
+}
+
+
+a{
+    text-decoration: none;
+    background: red ;
+    
+}
+
+img{
+    height: 250px;
+    width: 250px;
+    border-radius: 10%;
+}
+
+a:hover{
+    color:black;
+}
+.button:hover{
+    color: red;
+    background: gray;
+}
